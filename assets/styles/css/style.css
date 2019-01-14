@@ -1,0 +1,43 @@
+/* body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    
+} */
+.container{
+    max-width: 1200px;
+    float: center;
+    margin: auto;
+    padding-top: 4%;
+    
+    /* background-color: azure; */
+} 
+
+
+
+/* title{
+    text-align: center;
+    color: #00ff00;
+} */
+.hero.is-dark .title{
+    text-align: left;
+    color: #00ff00;
+}
+
+.subtitle{
+    text-align: center;
+    display: inline-block;
+}
+
+.contact{
+    text-align: right;
+}
+
+.footer{
+    background-color: #363636;
+}
+
+
+
