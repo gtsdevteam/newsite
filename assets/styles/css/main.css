@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    background-image: url("../images/gts.jpg");
+    background-position: center center;
+    /* background-repeat:  no-repeat; */
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: transparent;
+}
+.container{
+    max-width: 1200px;
+    float: center;
+    margin: auto;
+    padding-top: 4%;
+    
+    /* background-color: azure; */
+} 
+
+header{
+    text-align: center;
+    color: #00ff00;
+}
+
+.is-4{
+    text-align: center;
+}
+
+.title {
+    color: #00ff00;
+    font-size: 4rem;
+}
+
