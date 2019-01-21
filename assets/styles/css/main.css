@@ -13,10 +13,10 @@ body, html {
     margin: auto;
     padding-top: 4%;
     
-    /* background-color: azure; */
 } 
 
 header{
+    padding-top: 3rem;
     text-align: center;
     color: #00ff00;
 }
