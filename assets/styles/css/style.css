@@ -112,15 +112,36 @@ temp
     width: 100%;
 }
 
-.serviceContainer .dryerServiceList {
+.serviceContainer .serviceList  {
     background-color:#d3d3d3;
     padding: 2px;
     cursor: pointer;
     font-weight: bold;
 }
 
-.serviceContainer .dryerContent{
+.serviceContainer .dryerContent {
     display: none;
     padding: 5px;
 }
+/* styling for hvac hidden list */
 
+.hvacServiceContainer {
+    width: 100%;
+    border: 1px;
+}
+
+.hvacServiceContainer div{
+    width: 100%;
+}
+
+.hvacServiceContainer .hvacList  {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hvacServiceContainer .hvacContent {
+    display: none;
+    padding: 5px;
+}
