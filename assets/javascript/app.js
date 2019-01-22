@@ -31,20 +31,69 @@ $(".serviceList").click(function () {
 
 });
 
+//duct repair hidden content
+$(".ductList").click(function () {
+
+    $ductList = $(this);
+    
+    $ductContent = $ductList.next();
+    
+    $ductContent.slideToggle(500, function () {
+        
+        $ductList.text(function () {
+            //change text based on condition
+            // return $ductContent.is(":visible") ? "Collapse" : "Expand";
+        });
+    });
+
+});
+
+//hvac cleaning hidden content
+$(".hvacCleaningList").click(function () {
+
+    $hvacCleaningList = $(this);
+    
+    $hvacCleaningContent = $hvacCleaningList.next();
+    
+    $hvacCleaningContent.slideToggle(500, function () {
+        
+        $hvacCleaningList.text(function () {
+            //change text based on condition
+            // return $hvacCleaningContent.is(":visible") ? "Collapse" : "Expand";
+        });
+    });
+
+});
+
 //hvac repair hidden content
 
 $(".hvacList").click(function () {
 
     $.hvacList = $(this);
-    //getting the next element
+    
     $hvacContent = $.hvacList.next();
-    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    
     $hvacContent.slideToggle(500, function () {
-        //execute this after slideToggle is done
-        //change text of s$.hvacList based on visibility of content div
+       
         $.hvacList.text(function () {
-            //change text based on condition
+           
             // return $hvacContent.is(":visible") ? "Collapse" : "Expand";
+        });
+    });
+
+});
+
+$(".mouldRemediation").click(function () {
+
+    $.mouldRemediation = $(this);
+    
+    mouldContent = $.mouldRemediation.next();
+    
+    mouldContent.slideToggle(500, function () {
+        
+        $.mouldRemediation.text(function () {
+            //change text based on condition
+            // return mouldContent.is(":visible") ? "Collapse" : "Expand";
         });
     });
 
