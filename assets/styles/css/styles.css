@@ -1,0 +1,104 @@
+/* //this style sheet has the header and footer main styling for every page. */
+
+.hero.is-dark .title{
+    text-align: center;
+    color: #00ff00;
+    /* padding-left: 20%; */
+    font-size: 5rem;
+}
+
+.hero-body {
+    background-image: url("../images/gts.jpg");
+    height: 100%;
+    
+    background-position: center center;
+    /* background-repeat:  no-repeat; */
+    /* background-attachment: fixed; */
+    background-size:  cover;
+    background-color: transparent;
+    padding: .5rem .5rem;
+    
+}
+
+
+.title-container {
+    max-width: 1200px;
+    float: center;
+    margin: auto;
+    /* padding-top: 4%; */
+}
+.hero.is-dark a:not(.button):not(.dropdown-item):not(.tag), .hero.is-dark strong {
+    color: #00ff00;
+    font-size: 1rem;
+    /* padding-top: 4rem; */
+}
+
+.navbar-item {
+    color: #00ff00;
+    
+}
+
+.scroll-quote {
+    position: relative;
+    padding: .5rem;
+    max-width: 1140px;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 10;
+    background: #000;
+    border-bottom: 8px, #333;
+    color: #00ff00;
+    font-size: 20px;
+    letter-spacing: .5px;
+    text-align: center;
+    
+}
+
+.navbar-dropdown{
+    background-color: #000;
+}
+
+.footer{
+    /* background-color: #363636; */
+    margin-top: 10%;
+    background-image: url("../images/gts.jpg");
+    /* height: 100%;
+     */
+    background-position: center center;
+    /* background-repeat:  no-repeat; */
+    /* background-attachment: fixed; */
+    background-size:  cover;
+    background-color: transparent;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+    text-align: center;
+}
+
+.footer .media-content h2  {
+    color: #00ff00;
+    text-align: center;
+}
+
+.footer .media-content li {
+    list-style-type: none;
+    text-align: center;
+}
+.footer .contact-content h2 {
+    color: #00ff00;
+}
+.footer .contact-content li{
+    color: #00ff00;
+    list-style-type: none;
+    /* padding-bottom: 5rem; */
+    /* margin-bottom: 3rem; */
+}
+
+.footer .copyright p {
+    /* display: inline; */
+    text-align: center;
+}
