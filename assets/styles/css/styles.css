@@ -59,6 +59,10 @@
     background-color: #000;
 }
 
+.navbar-burger {
+    color: #00ff00;
+}
+
 .footer{
     /* background-color: #363636; */
     margin-top: 10%;
@@ -71,7 +75,7 @@
     background-size:  cover;
     background-color: transparent;
     padding: 1rem;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -101,4 +105,54 @@
 .footer .copyright p {
     /* display: inline; */
     text-align: center;
+}
+/* 
+// PM landing section */
+
+.res-pad {
+    padding-top: 5rem;
+    
+}
+
+/* //slider styling */
+
+.image-slider{
+    width: 80%;
+    height: 450px;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.image-slider .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.image-slider .btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    top: 200px;
+    background: #000;
+    color: #00ff00;
+    font-size: 20px;
+
+}
+
+.image-slider #btn1 :hover {
+    box-shadow: 10px 0px 20px 0px black; 
+}
+
+.image-slider #btn2 :hover {
+    box-shadow: -10px 0px 20px 0px black; 
+}
+
+#btn2 {
+    position: relative;
+    float: right;
+
 }
