@@ -98,3 +98,19 @@ $(".mouldRemediation").click(function () {
     });
 
 });
+
+$(".guarantee").click(function () {
+
+    $.guarantee = $(this);
+    
+    guaranteeContent = $.guarantee.next();
+    
+    guaranteeContent.slideToggle(500, function () {
+        
+        $.guarantee.text(function () {
+            //change text based on condition
+            // return guaranteeContent.is(":visible") ? "Collapse" : "Expand";
+        });
+    });
+
+});

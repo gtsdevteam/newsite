@@ -111,6 +111,7 @@
 
 .res-pad {
     padding-top: 5rem;
+    padding-left: 2rem;
     
 }
 
@@ -155,4 +156,149 @@
     position: relative;
     float: right;
 
+}
+
+/* //service content */
+.serviceContainer {
+    width: 100%;
+    border: 1px;
+}
+
+.serviceContainer div{
+    width: 100%;
+}
+
+.serviceContainer .serviceList  {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.serviceContainer .dryerContent {
+    /* display: none; */
+    padding: 5px;
+}
+/* styling for hvac hidden list */
+
+.hvacServiceContainer {
+    width: 100%;
+    border: 1px;
+}
+
+.hvacServiceContainer div{
+    width: 100%;
+}
+
+.hvacServiceContainer .hvacList  {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.hvacServiceContainer .hvacContent {
+    /* display: none; */
+    padding: 5px;
+}
+/* mould hidden liust styling  */
+
+.mouldContainer {
+    width: 100%;
+    border: 1px;
+}
+
+.mouldContainer div{
+    width: 100%;
+}
+
+.mouldContainer .mouldRemediation  {
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.mouldContainer .mouldContent {
+    /* display: none; */
+    padding: 5px;
+}
+
+/* /duct hidden content/ */
+.ductContainer {
+    width: 100%;
+    border: 1px;
+}
+
+.ductContainer div{
+    width: 100%;
+}
+
+.ductContainer .ductList  {
+    background-color:#333;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.ductContainer .ductContent {
+    /* display: none; */
+    padding: 5px;
+}
+
+/* /hvac cleaning hidden content/ */
+
+.hvacCleaningContainer {
+    width: 100%;
+    border: 1px;
+}
+
+.hvacCleaningContainer div{
+    width: 100%;
+}
+
+.hvacCleaningContainer .hvacCleaningList  {
+    background-color: #00ff00;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.hvacCleaningContainer .hvacCleaningContent {
+    /* display: none; */
+    padding: 5px;
+}
+
+/* //guarantee hidden content */
+
+.guaranteeContainer {
+    width: 100%;
+    border: 1px;
+}
+
+.guaranteeContainer div{
+    width: 100%;
+}
+
+.guaranteeContainer .guarantee  {
+    background-color: #00ff00;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.guaranteeContainer .guaranteeContent {
+    /* display: none; */
+    padding: 5px;
+}
+
+ ol{
+    list-style-type: decimal;
 }
