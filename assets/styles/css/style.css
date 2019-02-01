@@ -51,6 +51,8 @@ header{
     padding: .5rem .5rem;
 }
 
+
+
 /* //drop down navbar */
 .hero.is-dark a:not(.button):not(.dropdown-item):not(.tag), .hero.is-dark strong {
     color: #00ff00;
