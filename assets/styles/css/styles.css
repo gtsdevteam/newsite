@@ -429,3 +429,51 @@
     margin-top: 2rem;
     border-top: 2px solid black;
 }
+
+/* 
+//form controll  */ 
+
+.brand{
+    text-align: center;
+}
+
+.brand span {
+    color: #000;
+}
+
+.wrapper2 {
+    box-shadow: 0 0 20px 0 rgba(72,94,116, 0.7);
+}
+
+.wrapper2 > *{
+    padding: 2em;
+}
+
+.company-info {
+    background: #00ff00;
+}
+
+.company-info h3, .company-info ul {
+    text-align: center;
+    margin: 0 0 1 rem 0;
+}
+
+.contact-content2 {
+    background: #f9feff;
+}
+
+/* //form input styles */
+
+.contact2 form {
+    display: grid;
+    grid-template-columns:  1fr 1fr; 
+    grid-gap: 2rem;
+}
+
+.contact2 form label{
+    display: block;
+}
+
+.contact2 form p{
+    margin: 0%;
+}
