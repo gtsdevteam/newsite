@@ -61,6 +61,10 @@
     
 }
 
+.qoute-body a {
+    color: #00ff00;
+}
+
 .navbar-dropdown{
     background-color: #000;
 }
@@ -441,11 +445,17 @@
     color: #000;
 }
 
+.initial-wrapper {
+    padding-top: 2rem;
+}
+
 .wrapper2 {
     box-shadow: 0 0 20px 0 rgba(72,94,116, 0.7);
+    
 }
 
 .wrapper2 > *{
+    
     padding: 2em;
 }
 
@@ -463,20 +473,23 @@
 }
 
 /* //form input styles */
-
-.contact2 form {
+ 
+/* .contact2 form {
     display: grid;
     grid-template-columns:  1fr 1fr; 
     grid-gap: 2rem;
-}
+} */
 
-.contact2 form label{
+/* .contact2 form label{
     display: block;
 }
 
 .contact2 form p{
     margin: 0%;
-}
+}  */
+
+/* //form2 styling */
+
 
 
 /* ///experimenting with new landing page  */
