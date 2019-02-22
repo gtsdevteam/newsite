@@ -20,6 +20,33 @@
     
 }
 
+/* //l2 styling page for title  */
+
+
+.mainTitle{
+    text-align: center;
+    font-size: 8rem;
+    color: #00ff00;
+    padding-bottom: 10%;
+}
+
+.mainTitle2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #00ff00;
+    padding-bottom: 2rem;
+}
+
+.subtitle {
+    text-align: center;
+    color: #00ff00;
+}
+
+
+.hero.is-success .title {
+    color: #00ff00;
+}
+
 .container {
     max-width: 1200px;
     float: center;
@@ -60,6 +87,16 @@
     text-align: center;
     
 }
+
+.l2style{
+    background-image: url("../images/gts.jpg");
+    padding-right: 27%;
+}
+
+.navbar-link{
+    color: #00ff00;
+}
+
 
 .qoute-body a {
     color: #00ff00;
