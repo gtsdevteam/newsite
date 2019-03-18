@@ -1,5 +1,11 @@
 /* //this style sheet has the header and footer main styling for every page. */
 
+body{
+    /* font-family: 'PT Serif', Georgia, serif; */
+    font-family: 'Ropa Sans', sans-serif;
+
+}
+
 .hero.is-dark .title{
     text-align: center;
     color: #00ff00;
@@ -130,7 +136,7 @@
     text-align: center;
 }
 
-.footer .media-content h2  {
+ .footer .media-content h2  {
     color: #00ff00;
     text-align: center;
 }
@@ -145,9 +151,8 @@
 .footer .contact-content li{
     color: #00ff00;
     list-style-type: none;
-    /* padding-bottom: 5rem; */
-    /* margin-bottom: 3rem; */
-}
+    
+} 
 
 .footer .copyright p {
     /* display: inline; */
@@ -618,7 +623,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
-    font-family: 
+    
 }
 
 .v-header{
@@ -679,4 +684,14 @@ body{
 
 .header-content h1 {
     text-align: right;
+}
+
+/* //card images on main page */
+
+.media-content {
+    text-align: center;
+}
+
+.card {
+    margin-top: 2rem;
 }
