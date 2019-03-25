@@ -1,8 +1,7 @@
 /* //this style sheet has the header and footer main styling for every page. */
 
 body{
-    /* font-family: 'PT Serif', Georgia, serif; */
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Istok Web', sans-serif;
 
 }
 
@@ -26,7 +25,16 @@ body{
     
 }
 
+/* //breadcrumb nav bar  */
+
+.breadcrumb a {
+    padding-right: 2rem;
+    color: #00ff00;
+    font-size: 2rem
+}
 /* //l2 styling page for title  */
+
+
 
 
 .mainTitle{
