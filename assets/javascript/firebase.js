@@ -64,6 +64,3 @@ function saveMessage(name,  email, phone, message, option){
 
 //alert message 
 
-function alertFunction() {
-  alert('Thank you your Form has been submitted. We will contact you soon!')
-};

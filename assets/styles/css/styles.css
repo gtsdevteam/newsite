@@ -536,7 +536,7 @@ body{
 }
 
 .initial-wrapper {
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .wrapper2 {
@@ -547,6 +547,7 @@ body{
 .wrapper2 > *{
     
     padding: 2em;
+
 }
 
 .company-info {
