@@ -27,17 +27,20 @@ function submitForm(e){
   var phone = getInputVal('phone');
   var message = getInputVal('message');
   var option= getInputVal('option');
+  var option2 = getInputVal('option2');
+  var option3 = getInputVal('option3');
+
 
   // Save message
-  saveMessage(name,  email, phone, message, option);
+  saveMessage(name,  email, phone, message, option, option2, option3);
 
   // Show alert
-//   document.querySelector('.alert').style.display = 'block';
+ //   document.querySelector('.alert').style.display = 'block';
 
   // Hide alert after 3 seconds
-  setTimeout(function(){
-    document.querySelector('.alert').style.display = 'none';
-  },3000);
+  // setTimeout(function(){
+  //   document.querySelector('.alert').style.display = 'none';
+  // },3000);
 
   // Clear form
   document.getElementById('contactForm').reset();
@@ -49,7 +52,7 @@ function getInputVal(id){
 }
 
 // Save message to firebase
-function saveMessage(name,  email, phone, message, option){
+function saveMessage(name,  email, phone, message, option, option2, option3){
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
     name: name,
@@ -57,10 +60,13 @@ function saveMessage(name,  email, phone, message, option){
     email:email,
     phone:phone,
     option: option,
-    
+    option2: option2,
+    option3: option3,
     message:message
   });
 }
 
 //alert message 
-
+function confirmation() {
+  confirm('are you sure this information is correct?');
+}
