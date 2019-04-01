@@ -80,6 +80,10 @@ body{
     /* padding-top: 4rem; */
 }
 
+.navbar{
+    background-color: transparent;
+}
+
 .navbar-item {
     color: #00ff00;
     
@@ -104,7 +108,8 @@ body{
 
 .l2style{
     background-image: url("../images/gts.jpg");
-    padding-right: 27%;
+    /* padding-right: 27%; */
+    padding-right: 3rem;
 }
 
 .navbar-link{
@@ -122,6 +127,7 @@ body{
 
 .navbar-burger {
     color: #00ff00;
+    margin-left: 2rem;
 }
 
 .footer{
