@@ -31,24 +31,24 @@ function showImage(n) {
 }
 
 //slide 2 
-var nindex = 1;
+// var nindex = 1;
 
-function minusIndex(p) {
-  nindex = nindex +1;
-  imageShow(nindex);
-}
+// function minusIndex(p) {
+//   nindex = nindex +1;
+//   imageShow(nindex);
+// }
 
-function imageShow(p) {
-  var y;
-  var z = document.getElementsByClassName ("slide2");
+// function imageShow(p) {
+//   var y;
+//   var z = document.getElementsByClassName ("slide2");
 
-  if (p > z.length) {nindex = 1};
+//   if (p > z.length) {nindex = 1};
 
-  if (p < 1) {nindex = z.length};
+//   if (p < 1) {nindex = z.length};
 
-  for(y=0; y<z.length; y++) {
-    z[y].style.display = "none";
-  }
+//   for(y=0; y<z.length; y++) {
+//     z[y].style.display = "none";
+//   }
 
-  z[nindex-1].style.display = "block";
-}
+//   z[nindex-1].style.display = "block";
+// }
