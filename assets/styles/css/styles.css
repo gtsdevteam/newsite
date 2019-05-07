@@ -107,15 +107,26 @@ body{
 }
 
 .l2style{
-    background-image: url("../images/gts.jpg");
+    /* background-image: url("../images/gts.jpg"); */
     /* padding-right: 27%; */
     padding-right: 3rem;
+    font-weight: bold;
+}
+
+.l2style2{
+     background-image: url("../images/gts.jpg");
+    /* padding-right: 27%; */
+    padding-right: 3rem;
+    font-weight: bold;
 }
 
 .navbar-link{
     color: #00ff00;
 }
 
+.navbar-menu {
+    background-color: transparent;
+}
 
 .qoute-body a {
     color: #00ff00;
