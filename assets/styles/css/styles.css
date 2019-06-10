@@ -22,7 +22,14 @@ body{
     background-size:  cover;
     background-color: transparent;
     padding: .5rem .5rem;
+    z-index: 3;
     
+}
+
+.title7{
+    float: left;
+    color: #00ff00;
+    font-size: 3rem;
 }
 
 .column{
@@ -66,6 +73,20 @@ body{
     padding-bottom: 2rem;
 }
 
+.mainTitle3{
+    text-align: center;
+    font-size: 4rem;
+    color: #00ff00;
+    /* padding-bottom: 2rem; */
+    float: left;
+    margin-left: 3rem;
+    /* text-decoration: underline; */
+    
+}
+.mainTitle3 .pureair {
+    color: #fff;
+    font-size: 2rem;
+}
 .subtitle {
     text-align: center;
     color: #00ff00;
@@ -650,6 +671,11 @@ body{
 
 
 /* ///experimenting with new landing page  */
+
+/* //experiment header */
+/* .hero .is-primary {
+    z-index: 2;
+} */
 
 
 
