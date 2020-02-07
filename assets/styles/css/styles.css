@@ -835,3 +835,10 @@ body{
     border-top: 1px solid black;
     
 }
+
+/* //hvac replacement list */
+.HR-list {
+    color: #00ff00;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
