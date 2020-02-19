@@ -120,10 +120,7 @@ body{
     background-color: transparent;
 }
 
-.navbar-item {
-    color: #00ff00;
-    
-}
+
 
 .scroll-quote {
     position: relative;
@@ -169,8 +166,21 @@ body{
 }
 
 .navbar-dropdown{
-    background-color: #000;
+    /* background-color: #000; */
 }
+
+.navbar-item {
+    color: #00ff00;
+    
+}
+/* 
+.navbar .is-active {
+    background-color: #fff;
+} */
+/* .dropdown-item-hover-color{
+    color: aqua;
+    background-color: aqua;
+} */
 
 .navbar-burger {
     color: #00ff00;
@@ -213,12 +223,13 @@ body{
 .footer .media-content li {
     list-style-type: none;
     text-align: center;
+    color: #fff;
 }
 .footer .contact-content h2 {
     color: #00ff00;
 }
 .footer .contact-content li{
-    color: #00ff00;
+    color: #fff;
     list-style-type: none;
     
 } 
@@ -296,9 +307,12 @@ body{
     border: none;
     border-radius: 25px;
     top: 200px;
-    background: #000;
-    color: #00ff00;
-    font-size: 20px;
+    /* background: #000; */
+    background: transparent;
+    /* color: #00ff00; */
+    color: #000;
+
+    font-size: 30px;
 
 }
 
@@ -774,7 +788,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: black;
+    /* background: black; */
     z-index: 1;
     opacity: 0.55;
     
