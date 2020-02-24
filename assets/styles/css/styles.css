@@ -70,7 +70,8 @@ body{
     text-align: center;
     font-size: 4rem;
     color: #00ff00;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
+    /* padding-left: 5rem; */
 }
 
 .mainTitle3{
@@ -137,6 +138,10 @@ body{
     letter-spacing: .5px;
     text-align: center;
     
+}
+
+.contactHeader {
+    padding-left: 10rem;
 }
 
 .l2style{
