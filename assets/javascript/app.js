@@ -12,105 +12,99 @@
     });
 })();
 
-//jquery for hiding content
+// //slider js
+// const slides=document.querySelector(".slider").children;
+// const prev=document.querySelector(".prev");
+// const next=document.querySelector(".next");
+// const indicator=document.querySelector(".indicator");
+// let index=0;
 
-$(".serviceList").click(function () {
 
-    $serviceList = $(this);
-    //getting the next element
-    $dryerContent = $serviceList.next();
-    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
-    $dryerContent.slideToggle(500, function () {
-        //execute this after slideToggle is done
-        //change text of s$serviceList based on visibility of content div
-        $serviceList.text(function () {
-            //change text based on condition
-            // return $dryerContent.is(":visible") ? "Collapse" : "Expand";
-        });
-    });
+// prev.addEventListener("click", function(){
+//     prevSlide();
+//     updateCircleIndicator();
+//     resetTimer();
+// })
 
-});
 
-//duct repair hidden content
-$(".ductList").click(function () {
+// next.addEventListener("click", function(){
+//     nextSlide();
+//     updateCircleIndicator();
+//     resetTimer();
+// })
 
-    $ductList = $(this);
+// //create circle indicatiors
+// function circleIndicator(){
+//     for(let i=0; i< slides.length; i++) {
+//         const div=document.createElement("div");
+//             div.innerHTML=i+1;
+//         div.setAttribute("onclick", "indicateSlide(this)" )
+//         div.id=i;
+//         if(i==0){
+//             div.className="active";
+//         }
+//         indicator.appendChild(div);
+
+//     }
+// }
+// circleIndicator();
+
+// function indicateSlide(element) {
+//     index=element.id;
+//     changeSlide();
+//     updateCircleIndicator();
+//     resetTimer();
+// }
+
+// function updateCircleIndicator() {
+//     for(let i=0; i<indicator.children.length; i++) {
+//         indicator.children[i].classList.remove("active");
+//     }
+//     indicator.children[index].classList.add("active");
+// }
+
+// function prevSlide(){
+//     if(index==0) {
+//         index=slides.length-1;
+//     }
+//     else{
+//         index--;
+//     }
+//     changeSlide();
+// }
+
+// function nextSlide() {
+//     if(index==slides.length-1) {
+//         index=0;
+//     }
+//     else{
+//         index++;
+//     }
     
-    $ductContent = $ductList.next();
-    
-    $ductContent.slideToggle(500, function () {
-        
-        $ductList.text(function () {
-            //change text based on condition
-            // return $ductContent.is(":visible") ? "Collapse" : "Expand";
-        });
-    });
+//     changeSlide();
 
-});
+// }
 
-//hvac cleaning hidden content
-$(".hvacCleaningList").click(function () {
+// function changeSlide() {
 
-    $hvacCleaningList = $(this);
-    
-    $hvacCleaningContent = $hvacCleaningList.next();
-    
-    $hvacCleaningContent.slideToggle(500, function () {
-        
-        $hvacCleaningList.text(function () {
-            //change text based on condition
-            // return $hvacCleaningContent.is(":visible") ? "Collapse" : "Expand";
-        });
-    });
+//     for(let i=0; i<slides.length; i++){
+//         slides[i].classList.remove("active");
+//     } 
+//     slides[index].classList.add("active");
+// }
 
-});
+// function resetTimer() {
+//     // stop timer
+//     clearInterval(timer);
+//     // then start again
+//     timer=setInterval(autoplay,4000);
+// }
 
-//hvac repair hidden content
+// //autoplay slide
 
-$(".hvacList").click(function () {
+// function autoplay() {
+//     nextSlide();
+//     updateCircleIndicator();
+// }
 
-    $.hvacList = $(this);
-    
-    $hvacContent = $.hvacList.next();
-    
-    $hvacContent.slideToggle(500, function () {
-       
-        $.hvacList.text(function () {
-           
-            // return $hvacContent.is(":visible") ? "Collapse" : "Expand";
-        });
-    });
-
-});
-
-$(".mouldRemediation").click(function () {
-
-    $.mouldRemediation = $(this);
-    
-    mouldContent = $.mouldRemediation.next();
-    
-    mouldContent.slideToggle(500, function () {
-        
-        $.mouldRemediation.text(function () {
-            //change text based on condition
-            // return mouldContent.is(":visible") ? "Collapse" : "Expand";
-        });
-    });
-
-});
-
-$(".guarantee").click(function () {
-
-    $.guarantee = $(this);
-    
-    guaranteeContent = $.guarantee.next();
-    
-    guaranteeContent.slideToggle(500, function () {
-        
-        $.guarantee.text(function () {
-            //change text based on condition
-            // return guaranteeContent.is(":visible") ? "Collapse" : "Expand";
-        });
-    });
-
-});
+// let timer = setInterval(autoplay,4000);

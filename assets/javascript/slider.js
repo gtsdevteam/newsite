@@ -30,6 +30,8 @@
 
 // }
 
+//image slider for most pages
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -47,3 +49,24 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block"; 
 }
+
+//bathroom slider only on dryer page
+
+
+// var slideIndex2 = 1;
+// showDivs(slideIndex2);
+
+// function plusIndex(m) {
+//   showDivs(slideIndex2 += m);
+// }
+
+// function showDivs(m) {
+//   var ii;
+//   var xp = document.getElementsByClassName("slide2");
+//   if (m > xp.length) {slideIndex2 = 1} 
+//   if (m < 1) {slideIndex2 = xp.length} ;
+//   for (ii = 0; ii < xp.length; ii++) {
+//     xp[ii].style.display = "none"; 
+//   }
+//   xp[slideIndex2-1].style.display = "block"; 
+// }
