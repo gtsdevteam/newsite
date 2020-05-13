@@ -206,6 +206,15 @@ body{
     margin-left: 2rem;
 }
 
+.navImage {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
 /* //order now button all pages  */
 
 .button{
