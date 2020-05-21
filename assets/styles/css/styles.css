@@ -124,6 +124,7 @@ body{
     padding-right: 4rem;
     padding-top: 2rem;
     cursor: pointer;
+    margin-left: 1rem;
 }
 
 
@@ -445,8 +446,8 @@ body{
     color: #00ff00;
     /* padding-left: 20%; */
     font-size: 3.5rem;
-    padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     /* padding-left: 1rem; */
     
     /* padding: 2px; */
