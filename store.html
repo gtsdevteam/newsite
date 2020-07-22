@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/css/styles.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="preconnect" href="https://app.snipcart.com">
+<link rel="preconnect" href="https://cdn.snipcart.com">
     
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
+
   </head>
   <body>
     <section>
@@ -171,10 +175,19 @@
               </div>
           </div>
       </div>   
-  
         
   </section>
+  <section>
+      <div class="container">
+          <div class="columns">
+              <div class="column res-pad">
 
+              </div>
+              <div class="column res-pad"></div>
+          </div>
+      </div>
+  </section>
+  <!-- <button class="snipcart-checkout">Click here to checkout</button -->
     <section>
       <div class="container">
         <div class="columns">
@@ -196,18 +209,18 @@
                 <div class="content">
                   <h1>honeywell 7000</h1>
                   <p>The suite pro comes in select voltages depending on your HVAC system</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="honeywell7000" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                  <div class="buttons">
+                            
+                    <button class="snipcart-add-item button is-success is-fullwidth"
+                    data-item-id="honeywell"
+                    data-item-price="79.99"
+                    data-item-url="/shop/honeywell"
+                    data-item-description="honeywell"
+                    data-item-image="./assets/styles/images/honeywell_7000.JPG"
+                    data-item-name="honeywell">
+                    Add to cart
+                    </button>
+                 </div>
                  
                 </div>
               </div>
@@ -218,7 +231,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3 item-container">
-                  <img src="./assets/styles/images/nest_suitePro.jpg" alt="Placeholder image">
+                  <img src="./assets/styles/images/nest.jpg" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
@@ -232,18 +245,18 @@
                 <div class="content">
                   <h1>Nest SuitePro</h1>
                   <p>The suite pro comes in select voltages depending on your HVAC system</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="HVAC grills" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                  <div class="buttons">
+                            
+                    <button class="snipcart-add-item button is-success is-fullwidth"
+                    data-item-id="nest suit pro"
+                    data-item-price="79.99"
+                    data-item-url="/shop/nest_suitePro"
+                    data-item-description="nest_suitePro"
+                    data-item-image="./assets/styles/images/nest_suitePro.JPG"
+                    data-item-name="nest_suitePro">
+                    Add to cart
+                    </button>
+                </div>
                 </div>
               </div>
             </div>
@@ -267,19 +280,18 @@
                 <div class="content">
                   <h1>PECO</h1>
                   <p>The peco comes in select voltages depending on your HVAC system</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="PECO Thermostat" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
-                  
+                  <div class="buttons">
+                            
+                    <button class="snipcart-add-item button is-success is-fullwidth"
+                    data-item-id="Fan motor"
+                    data-item-price="79.99"
+                    data-item-url="/shop/fan-motor"
+                    data-item-description="Fan Motor"
+                    data-item-image="./assets/styles/images/sideMotor.JPG"
+                    data-item-name="Fan Motor">
+                    Add to cart
+                    </button>
+                </div>
                 </div>
               </div>
             </div>
@@ -330,18 +342,18 @@
                 <div class="content">
                   <h1>Actuator</h1>
                   <p>Actuator used to regulate water</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="honeywell7000" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                  <div class="buttons">
+                            
+                    <button class="snipcart-add-item button is-success is-fullwidth"
+                    data-item-id="Actuator"
+                    data-item-price="79.99"
+                    data-item-url="/shop/actuator"
+                    data-item-description="Acuator"
+                    data-item-image="./assets/styles/images/StoreImages/Actuator.JPG"
+                    data-item-name="Actuator">
+                    Add to cart
+                    </button>
+                </div>
                  
                 </div>
               </div>
@@ -366,18 +378,18 @@
                 <div class="content">
                   <h1>Fan Motor</h1>
                   <p>Standard fan motor</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="HVAC grills" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                  <div class="buttons">
+                            
+                    <button class="snipcart-add-item button is-success is-fullwidth"
+                    data-item-id="Fan motor"
+                    data-item-price="79.99"
+                    data-item-url="/shop/fan-motor"
+                    data-item-description="Fan Motor"
+                    data-item-image="./assets/styles/images/StoreImages/sideMotor.JPG"
+                    data-item-name="Fan Motor">
+                    Add to cart
+                    </button>
+                </div>
                 </div>
               </div>
             </div>
@@ -401,18 +413,18 @@
                 <div class="content">
                   <h1>Bathroom Fan</h1>
                   <p>A bathroom fan.</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="PECO Thermostat" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                     <div class="buttons">
+                            
+                        <button class="snipcart-add-item button is-success is-fullwidth"
+                        data-item-id="bath-motor"
+                        data-item-price="79.99"
+                        data-item-url="/shop/motor"
+                        data-item-description="bathroom motor"
+                        data-item-image="./assets/styles/images/StoreImages/motor.JPG"
+                        data-item-name="bathroom motor">
+                        Add to cart
+                        </button>
+                    </div>
                   
                 </div>
               </div>
@@ -464,18 +476,18 @@
                 <div class="content">
                   <h1>Float Switch</h1>
                   <p>Protect your unit from floading.</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="honeywell7000" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                  <div class="buttons">
+                            
+                    <button class="snipcart-add-item button is-success is-fullwidth"
+                    data-item-id="floatSwitch"
+                    data-item-price="79.99"
+                    data-item-url="/shop/floatSwitch"
+                    data-item-description="float switch"
+                    data-item-image="./assets/styles/images/StoreImages/floatSwitch.JPG"
+                    data-item-name="float switch">
+                    Add to cart
+                    </button>
+                </div>
                  
                 </div>
               </div>
@@ -500,18 +512,18 @@
                 <div class="content">
                   <h1>Grill</h1>
                   <p>Grill cover</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="HVAC grills" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                    <div class="buttons">
+                            
+                        <button class="snipcart-add-item button is-success is-fullwidth"
+                        data-item-id="grill-cover"
+                        data-item-price="79.99"
+                        data-item-url="/shop/grill"
+                        data-item-description="Grill Cover"
+                        data-item-image="./assets/styles/images/StoreImages/grill.JPG"
+                        data-item-name="Grill cover">
+                        Add to cart
+                        </button>
+                    </div>
                 </div>
               </div>
             </div>
@@ -535,25 +547,27 @@
                 <div class="content">
                   <h1>The Round</h1>
                   <p>Round thermostat</p>
-                  <form action="https://gtsstore.foxycart.com/cart" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="name" value="PECO Thermostat" />
-                    <input type="hidden" name="price" value="44.50" />
-                    <input type="hidden" name="code" value="sku123" />
-                    <label class="label_left">Voltage</label>
-                    <select name="Voltage">
-                      <option value="12v">12v</option>
-                      <option value="24v">24v</option>
-                      
-                    </select>
-                    <input type="submit" value="Add Thermostat to cart" class="submit" />
-                  </form>
+                 
                   
+                    <div class="buttons">
+                        
+                        <button class="snipcart-add-item button is-success is-fullwidth"
+                        data-item-id="round-therm"
+                        data-item-price="79.99"
+                        data-item-url="/shop/thermostat"
+                        data-item-description="Round thermostat"
+                        data-item-image="./assets/styles/images/StoreImages/thermoPackage.JPG"
+                        data-item-name="Round thermostat">
+                        Add to cart
+                        </button>
+                    </div>
+                
                 </div>
               </div>
             </div>
             
           </div>
-          <!-- <div class="column res-pad">
+          <div class="column res-pad">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
@@ -575,7 +589,7 @@
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
       </div>    
 
 
@@ -656,9 +670,10 @@
   <script type="text/javascript" src="../newsite/assets/javascript/app.js"></script>
   <script type="text/javascript" src="../newsite/assets/javascript/slider.js"></script>
   <!-- FOXYCART -->
-  <script data-cfasync="false" src="https://cdn.foxycart.com/gtsstore/loader.js" async defer></script>
+  <!-- <script data-cfasync="false" src="https://cdn.foxycart.com/gtsstore/loader.js" async defer></script> -->
   <!-- /FOXYCART -->
-
+  <div hidden id="snipcart" data-api-key="Y2MwYWVlNmQtOGU2ZS00MTVhLWFkZmEtZDcyYzVjZTFjNjRjNjM3Mjg2OTE4NzQ2NTM2Mjk5"></div>
+  <script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js"></script>
   </body>
 </html>
 

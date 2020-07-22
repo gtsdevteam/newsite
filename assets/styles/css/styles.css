@@ -1093,6 +1093,10 @@ body{
     object-fit: contain;
 
 }
+/* //stor title */
+.store-title {
+    font-size: 3rem;
+}
 
 /* responsive */
 @media(max-width: 767px) {
