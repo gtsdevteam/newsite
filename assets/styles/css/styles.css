@@ -1093,7 +1093,14 @@ body{
     object-fit: contain;
 
 }
-/* //stor title */
+
+/* //testimony */
+.title-testimony{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+/* //store title */
 .store-title {
     font-size: 3rem;
 }
