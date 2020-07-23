@@ -1098,7 +1098,17 @@ body{
 
 /* //testimony */
 .title-testimony{
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+.title-testimony2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+.title-testimony3{
+    font-size: 1.3rem;
     font-weight: 600;
     line-height: 1.125;
 }
