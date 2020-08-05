@@ -1119,6 +1119,19 @@ body{
     font-size: 3rem;
 }
 
+
+/* //coming soon */
+
+.comingSoon {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.coming-soon {
+    text-align: center;
+    font-size: 10rem;
+}
+
 /* responsive */
 @media(max-width: 767px) {
     .controls{
